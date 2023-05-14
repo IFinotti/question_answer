@@ -29,7 +29,7 @@ for pergunta in perguntas:
     # Imprime as opções de resposta para as perguntas
     opcoes = pergunta['Opções']
     for indice, opcao in enumerate(opcoes):
-        print(f'{indice})', opcao)
+        print(f'{indice + 1})', opcao)
     print()
 
     escolha = input('Escolha uma opção: ')
